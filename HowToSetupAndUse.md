@@ -65,7 +65,7 @@ Once these variables have been modified, remember to save the code.
 ## Creating Event Triggers
 Event triggers are required to invoke the process. Without an event trigger, the code will not work.
 
-To set the event triggers, click on the clock face in the toolbar above the code or use the Edit menu's option for `Current project's priggers`.
+To set the event triggers, click on the clock face in the toolbar above the code or use the Edit menu's option for `Current project's triggers`.
 
 On the resulting page you will `+ Add Trigger` and use the following options:
 
