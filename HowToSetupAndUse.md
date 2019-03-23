@@ -12,11 +12,11 @@ In either case, the folder ID you will need is the portion of the URL ___after__
 
  `92nv98hnb1_A92k18vB` or `10eb873ajnd81-UAV3981of-vb38RFB0a` in these examples.
 
-The above folder IDs are fabricated for example purposes.
+The above folder IDs are fabricated for example purposes and will fail if you attempt to use them in testing.
 
 ## Create the [input] Google Form and response Google Sheet in the Team Drive
 
-For this example, the Google Form you create should have the following fields, in order (note that Timestamp is added by default and does not need to be in your Google Form):
+The Google Form you create should have the following fields, in order (note that Timestamp is added by default and does not need to be in your Google Form):
 
 * Timestamp
 * Instructor Name
@@ -30,6 +30,8 @@ For this example, the Google Form you create should have the following fields, i
 
 Once the form is configured properly, enable the response spreadsheet option to automatically create an appropriate Sheet.
 
+An [example form](https://goo.gl/forms/UfIkbP9UmC00y95u1) is provided to view the front-end, and an [example/stub-out response sheet](https://docs.google.com/spreadsheets/d/11K3S-KERPW4pbQZSE_I9ObFKHe4EgJmKYqmstjoyjxI/edit?usp=sharing) is available for a demo/starting reference.
+
 ## Add code to the Sheet
 In the sheet, use the Tools menu to open up the `<> Script Editor`.
 
@@ -39,7 +41,7 @@ function myFunction () {
 }
 ```
 
-Add the code (select all/copy/paste) from this repository's `MergeData.gs` file. Using the disk icon, save the code.
+Add the code (select all/copy/paste) from this repository's `MergeData.gs` file. Using the disk icon, File menu, or ctrl-S keyboard shortcut, save the code.
 
 Edit or rename the project's name (in the header above the File...Help menus) as you see fit. You can also edit the individual script's file name if you feel so moved. Neither of the renaming steps are necessary.
 
@@ -58,7 +60,7 @@ You will replace the `driveID` and `recipients` variables with values for your s
 
 `recipients` is a comma-delimited list of email address recipients. For a single recipient, simply use the email address with no comma separator.
 
-Once these variables have been modified, click the disk icon to save the code.
+Once these variables have been modified, remember to save the code.
 
 ## Creating Event Triggers
 Event triggers are required to invoke the process. Without an event trigger, the code will not work.
@@ -71,7 +73,7 @@ On the resulting page you will `+ Add Trigger` and use the following options:
 * ...which deployment should run: `Head`
 * ...event source: `From spreadsheet`
 * ...event type: `On form submit`
-* ...notification settings: As you see fit (for testing, `Notify me immediately` is likely the best option)
+* ...notification settings: _As you see fit_ (for testing, `Notify me immediately` is likely the best option)
 
 Save the trigger, and you will be set!
 

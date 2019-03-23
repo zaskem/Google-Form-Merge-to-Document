@@ -1,4 +1,4 @@
-# GoogleFormMergeToDocument
+# Google Form Merge to Document
 Example process for "merging" Google Form (response spreadsheet) data to a Google Doc (similar to Microsoft Office mail merge) in a Team Drive. Additionally, an email notification is sent to a recipient (with PDF attachment).
 ## Original Purpose
 A process was developed by a non-technical, non-IT user, to improve a previously cumbersome and error-prone information transfer process. In particular:
@@ -35,6 +35,8 @@ The Google Form you create will determine the modifications necessary for the pr
 * Content
 * Attendance
 * Additional Notes
+
+An [example form](https://goo.gl/forms/UfIkbP9UmC00y95u1) is provided to view the front-end, and an [example/stub-out response sheet](https://docs.google.com/spreadsheets/d/11K3S-KERPW4pbQZSE_I9ObFKHe4EgJmKYqmstjoyjxI/edit?usp=sharing) is available for a demo/starting reference.
 
 ## Future Work/Opportunities
 To enhance future scalability, a short list of possible modifications is presented. If you are interested in contributing or making an enhancement, feel free to fork this repository and submit a pull request for your modifications!
