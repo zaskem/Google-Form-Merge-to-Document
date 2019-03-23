@@ -8,7 +8,7 @@ Team Drive creation, selection, and management of users are out of scope for thi
 A sub-folder ID within a Team Drive will typically present as:
 `https://drive.google.com/drive/folders/10eb873ajnd81-UAV3981of-vb38RFB0a`
 
-In either case, the folder ID you will need is the portion of the URL ___after__ `https://drive.google.com/drive/folders/`:
+In either case, the folder ID you will need is the portion of the URL ___after___ `https://drive.google.com/drive/folders/`:
 
  `92nv98hnb1_A92k18vB` or `10eb873ajnd81-UAV3981of-vb38RFB0a` in these examples.
 
